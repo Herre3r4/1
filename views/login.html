@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/login.css" />
+    <title>Juegoland Login</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="/images/logo2.PNG" alt="Logo de Juegoland" />
+      </div>
+    </header>
+
+    <h3>Ingresar</h3>
+    <div class="formulario-login">
+      <form action="/login" method="POST">
+        <div>
+          <label for="nombre">Nombre usuario</label>
+          <input type="text" name="usuario" />
+        </div>
+
+        <div>
+          <label for="password">Contraseña</label>
+          <input type="password" name="clave" />
+        </div>
+        <div class="botones">
+          <div class="cancelar">
+            <button type="reset">Cancelar</button>
+          </div>
+          <div class="entrar">
+            <button type="submit">Entrar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <footer></footer>
+  </body>
+</html>

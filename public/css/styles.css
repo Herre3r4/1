@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(232, 155, 199);
+  margin: 1px, 3px, 2px;
+}
+
+header {
+  border: solid 2px rgba(245, 120, 5, 0.83);
+  background-color: rgba(245, 120, 5, 0.83);
+  width: 100vw;
+  height: 120px;
+}
+.barra-de-navegacion {
+  background-color: rgba(245, 120, 5, 0.83);
+  display: flex;
+  width: 70%;
+  height: 120px;
+}
+.logo {
+  display: flex;
+  justify-content: left;
+  width: 30vw;
+  height: 100px;
+}
+h2 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 36px;
+}
+.destacado-semanal {
+  display: flex;
+  padding: 10px;
+  margin-top: 2em;
+  margin-right: 2em;
+}
+.articulo{
+  width: 50vw;
+  height: 150px;
+  border:solid 2px
+  
+}
+.articulo img{
+  width: 25%;
+  height: 180px;
+}
+p {
+  font-size: small;
+  font-style: italic;
+}
+
+.pie-pagina{
+  width: 100%;
+  background-color: #488b1b;
+}
+.pie-pagina .grupo-1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50pxp;
+  padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+  width: 150px;
+  text-align: center;
+
+}
+.pie-pagina .grupo-1 .box h2{
+color:black;
+margin-bottom: 25px;
+font-size: 20px;
+
+}
+.pie-pagina .grupo-1 .box p{
+  color:black;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.pie-pagina .grupo-2{
+  text-align: center;
+}
+.pie-pagina .grupo-2 small{
+  font-size: 15px;
+}
+p {
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+  align-content: center;
+}
+img {
+  display: flex;
+  align-content: space-between;
+  max-height: 2em;
+  width: 50%;
+}
+
+@media (max-width: 1260px) {
+  body {
+    background-color: rgb(232, 155, 199);
+  }
+}
+@media (max-width: 780px) {
+  body {
+    background-color: rgb(82, 196, 158);
+  }
+}
+
+@media (min-width: 460px) {
+  body {
+    background-color: rgba(155, 192, 24, 0.985);
+  }
+}
